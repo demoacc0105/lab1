@@ -10,7 +10,7 @@ stages {
  }
  stage('Run Script') {
   steps {
-   sh 'chmod +x script.sh'
+   sh 'chmod +x script.sh1'
    sh './script.sh'
   }
  }
