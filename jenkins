@@ -4,7 +4,7 @@ agent any
 stages {
  stage('Clone') {
    steps {
-     git url:'https://github.com/demoacc0105/jenkins-simple-demo.git',
+     git url:'https://github.com/demoacc0105/lab1.git',
       branch:'main'
    }
  }
